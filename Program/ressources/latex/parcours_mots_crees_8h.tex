@@ -1,0 +1,50 @@
+\hypertarget{parcours_mots_crees_8h}{\section{/home/r40u1/\-P\-I/\-Scrabble\-\_\-final/headers/parcours\-Mots\-Crees.h File Reference}
+\label{parcours_mots_crees_8h}\index{/home/r40u1/\-P\-I/\-Scrabble\-\_\-final/headers/parcours\-Mots\-Crees.\-h@{/home/r40u1/\-P\-I/\-Scrabble\-\_\-final/headers/parcours\-Mots\-Crees.\-h}}
+}
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{parcours_mots_crees_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{parcours_mots_crees_8h_aa81d9b49470738820a7a926be0641490}{calculer\-Score} (int i1, int j1, int i2, int j2, \hyperlink{structure_de_donnee_8h_a4b19d9524b7f293ad87dd6bd9d121b25}{Grille} grille, \hyperlink{structure_de_donnee_8h_a426c0d223e7dc6b87d723c4c0c0e1f58}{Booleen} $\ast$p\-Existence, int $\ast$p\-Score)
+\item 
+void \hyperlink{parcours_mots_crees_8h_a4be650a0062b7277a7d2980abb5cffe3}{parcours\-Des\-Mots\-Crees} (\hyperlink{structure_de_donnee_8h_a4b19d9524b7f293ad87dd6bd9d121b25}{Grille} grille, char sens, int l0, int c0, int n, \hyperlink{structure_de_donnee_8h_a426c0d223e7dc6b87d723c4c0c0e1f58}{Booleen} $\ast$p\-Existence, int $\ast$p\-Score, int \hyperlink{interface_8c_ad5bfefafa3d248972817c0259efa829d}{masque\-Grille}\mbox{[}15\mbox{]}\mbox{[}15\mbox{]}, int $\ast$p\-Touche, char \hyperlink{interface_8c_ad3e01a56d5cdbd89e97b9b9346bc1a54}{message}\mbox{[}200\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{parcours_mots_crees_8h_aa81d9b49470738820a7a926be0641490}{\index{parcours\-Mots\-Crees.\-h@{parcours\-Mots\-Crees.\-h}!calculer\-Score@{calculer\-Score}}
+\index{calculer\-Score@{calculer\-Score}!parcoursMotsCrees.h@{parcours\-Mots\-Crees.\-h}}
+\subsubsection[{calculer\-Score}]{\setlength{\rightskip}{0pt plus 5cm}void calculer\-Score (
+\begin{DoxyParamCaption}
+\item[{int}]{i1, }
+\item[{int}]{j1, }
+\item[{int}]{i2, }
+\item[{int}]{j2, }
+\item[{{\bf Grille}}]{grille, }
+\item[{{\bf Booleen} $\ast$}]{p\-Existence, }
+\item[{int $\ast$}]{p\-Score}
+\end{DoxyParamCaption}
+)}}\label{parcours_mots_crees_8h_aa81d9b49470738820a7a926be0641490}
+à partir des coordonnées d'une suite de lettre, détermine si le mot existe et, si tel est le cas, le nombre de point qu'il rapporte \hypertarget{parcours_mots_crees_8h_a4be650a0062b7277a7d2980abb5cffe3}{\index{parcours\-Mots\-Crees.\-h@{parcours\-Mots\-Crees.\-h}!parcours\-Des\-Mots\-Crees@{parcours\-Des\-Mots\-Crees}}
+\index{parcours\-Des\-Mots\-Crees@{parcours\-Des\-Mots\-Crees}!parcoursMotsCrees.h@{parcours\-Mots\-Crees.\-h}}
+\subsubsection[{parcours\-Des\-Mots\-Crees}]{\setlength{\rightskip}{0pt plus 5cm}void parcours\-Des\-Mots\-Crees (
+\begin{DoxyParamCaption}
+\item[{{\bf Grille}}]{grille, }
+\item[{char}]{sens, }
+\item[{int}]{l0, }
+\item[{int}]{c0, }
+\item[{int}]{n, }
+\item[{{\bf Booleen} $\ast$}]{p\-Tour\-Valide, }
+\item[{int $\ast$}]{p\-Score\-Tour, }
+\item[{int}]{masque\-Grille\mbox{[}15\mbox{]}\mbox{[}15\mbox{]}, }
+\item[{int $\ast$}]{p\-Touche, }
+\item[{char}]{message\mbox{[}200\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{parcours_mots_crees_8h_a4be650a0062b7277a7d2980abb5cffe3}
+recherche tous les mots créés par la dépose des lettres du jouer + détermination de la validité du tour + le cas échéant, du score remporté 

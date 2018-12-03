@@ -1,0 +1,59 @@
+\hypertarget{distribution_8h}{\section{/home/r40u1/\-P\-I/\-Scrabble\-\_\-final/headers/distribution.h File Reference}
+\label{distribution_8h}\index{/home/r40u1/\-P\-I/\-Scrabble\-\_\-final/headers/distribution.\-h@{/home/r40u1/\-P\-I/\-Scrabble\-\_\-final/headers/distribution.\-h}}
+}
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{distribution_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{distribution_8h_a5a28ffd4625fd10849dac9bde2f695b2}{generation\-Ensemble\-Des\-Jetons} (\hyperlink{struct_jeton}{Jeton} ensemble\-Des\-Jetons\mbox{[}\hyperlink{structure_de_donnee_8h_a71e2e07f0ea54740cb5421e00e77a979}{N\-O\-M\-B\-R\-E\-D\-E\-J\-E\-T\-O\-N}\mbox{]})
+\item 
+void \hyperlink{distribution_8h_a7d8b638fa86c3426d190350cf0017e33}{empilage\-Aleatoire\-Jeton} (\hyperlink{struct_jeton}{Jeton} ensemble\-Des\-Jetons\mbox{[}\hyperlink{structure_de_donnee_8h_a71e2e07f0ea54740cb5421e00e77a979}{N\-O\-M\-B\-R\-E\-D\-E\-J\-E\-T\-O\-N}\mbox{]}, int nb\-Jetons\-Restants, \hyperlink{structure_de_donnee_8h_aeb2e4c1daa2de38a0efbf9ab87674140}{Pile} $\ast$\hyperlink{interface_8c_a6d4f2018c7ae823808170f38d6f18608}{p\-Pioche})
+\item 
+void \hyperlink{distribution_8h_aa56a67af62b835882c8455f7179391fb}{distribution\-Jetons} (\hyperlink{structure_de_donnee_8h_aeb2e4c1daa2de38a0efbf9ab87674140}{Pile} $\ast$\hyperlink{interface_8c_a6d4f2018c7ae823808170f38d6f18608}{p\-Pioche}, \hyperlink{struct_jeton}{Jeton} chevalet\mbox{[}7\mbox{]})
+\item 
+void \hyperlink{distribution_8h_ac3ed546272da04bab4c146d514c9f309}{distribution\-Initiale} (\hyperlink{struct_jeton}{Jeton} ensemble\-Des\-Jetons\mbox{[}\hyperlink{structure_de_donnee_8h_a71e2e07f0ea54740cb5421e00e77a979}{N\-O\-M\-B\-R\-E\-D\-E\-J\-E\-T\-O\-N}\mbox{]}, \hyperlink{structure_de_donnee_8h_aeb2e4c1daa2de38a0efbf9ab87674140}{Pile} $\ast$\hyperlink{interface_8c_a6d4f2018c7ae823808170f38d6f18608}{p\-Pioche}, \hyperlink{structure_de_donnee_8h_abde700801ddcd10c40bdf389ff5b1494}{Chevalet} ensemble\-Des\-Chevalets\mbox{[}$\,$\mbox{]}, int \hyperlink{interface_8c_a006645f5fca9c8be4a3a8a6398330060}{nb\-Joueurs})
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{distribution_8h_ac3ed546272da04bab4c146d514c9f309}{\index{distribution.\-h@{distribution.\-h}!distribution\-Initiale@{distribution\-Initiale}}
+\index{distribution\-Initiale@{distribution\-Initiale}!distribution.h@{distribution.\-h}}
+\subsubsection[{distribution\-Initiale}]{\setlength{\rightskip}{0pt plus 5cm}void distribution\-Initiale (
+\begin{DoxyParamCaption}
+\item[{{\bf Jeton}}]{ensemble\-Des\-Jetons\mbox{[}\-N\-O\-M\-B\-R\-E\-D\-E\-J\-E\-T\-O\-N\mbox{]}, }
+\item[{{\bf Pile} $\ast$}]{p\-Pioche, }
+\item[{{\bf Chevalet}}]{ensemble\-Des\-Chevalets\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{nb\-Joueurs}
+\end{DoxyParamCaption}
+)}}\label{distribution_8h_ac3ed546272da04bab4c146d514c9f309}
+Intitialisation des chevalets des joueurs (appel aux 3 fonctions précédentes) \hypertarget{distribution_8h_aa56a67af62b835882c8455f7179391fb}{\index{distribution.\-h@{distribution.\-h}!distribution\-Jetons@{distribution\-Jetons}}
+\index{distribution\-Jetons@{distribution\-Jetons}!distribution.h@{distribution.\-h}}
+\subsubsection[{distribution\-Jetons}]{\setlength{\rightskip}{0pt plus 5cm}void distribution\-Jetons (
+\begin{DoxyParamCaption}
+\item[{{\bf Pile} $\ast$}]{p\-Pioche, }
+\item[{{\bf Chevalet}}]{chevalet}
+\end{DoxyParamCaption}
+)}}\label{distribution_8h_aa56a67af62b835882c8455f7179391fb}
+On distribue le nombre de jetons nécessaires afin de compléter le chevalet du joueur \hypertarget{distribution_8h_a7d8b638fa86c3426d190350cf0017e33}{\index{distribution.\-h@{distribution.\-h}!empilage\-Aleatoire\-Jeton@{empilage\-Aleatoire\-Jeton}}
+\index{empilage\-Aleatoire\-Jeton@{empilage\-Aleatoire\-Jeton}!distribution.h@{distribution.\-h}}
+\subsubsection[{empilage\-Aleatoire\-Jeton}]{\setlength{\rightskip}{0pt plus 5cm}void empilage\-Aleatoire\-Jeton (
+\begin{DoxyParamCaption}
+\item[{{\bf Jeton}}]{ensemble\-Des\-Jetons\mbox{[}\-N\-O\-M\-B\-R\-E\-D\-E\-J\-E\-T\-O\-N\mbox{]}, }
+\item[{int}]{nb\-Jetons\-Restants, }
+\item[{{\bf Pile} $\ast$}]{p\-Pioche}
+\end{DoxyParamCaption}
+)}}\label{distribution_8h_a7d8b638fa86c3426d190350cf0017e33}
+Les jetons du tableau sont empilés aléatoirement dans la pioche \hypertarget{distribution_8h_a5a28ffd4625fd10849dac9bde2f695b2}{\index{distribution.\-h@{distribution.\-h}!generation\-Ensemble\-Des\-Jetons@{generation\-Ensemble\-Des\-Jetons}}
+\index{generation\-Ensemble\-Des\-Jetons@{generation\-Ensemble\-Des\-Jetons}!distribution.h@{distribution.\-h}}
+\subsubsection[{generation\-Ensemble\-Des\-Jetons}]{\setlength{\rightskip}{0pt plus 5cm}void generation\-Ensemble\-Des\-Jetons (
+\begin{DoxyParamCaption}
+\item[{{\bf Jeton}}]{ensemble\-Des\-Jetons\mbox{[}\-N\-O\-M\-B\-R\-E\-D\-E\-J\-E\-T\-O\-N\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{distribution_8h_a5a28ffd4625fd10849dac9bde2f695b2}
+Construction du tableau des jetons dans l'ordre alphabétique 

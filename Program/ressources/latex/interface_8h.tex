@@ -1,0 +1,266 @@
+\hypertarget{interface_8h}{\section{/home/r40u1/\-P\-I/\-Scrabble\-\_\-final/headers/interface.h File Reference}
+\label{interface_8h}\index{/home/r40u1/\-P\-I/\-Scrabble\-\_\-final/headers/interface.\-h@{/home/r40u1/\-P\-I/\-Scrabble\-\_\-final/headers/interface.\-h}}
+}
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$gtk/gtk.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}../ressources/structure\-De\-Donnee.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}../headers/grille.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}../headers/distribution.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}../headers/defausse.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}../headers/pile.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}../headers/parcours\-Mots\-Crees.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}../headers/verif\-Masque\-Grille.\-h\char`\"{}}\\*
+Include dependency graph for interface.\-h\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interface_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{interface_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_image_cliquable}{Image\-Cliquable}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interface_8h_a526a8d1aec28b7ccca94fa2e02e4bd18}{choisir\-Nb\-Joueurs} ()
+\item 
+void \hyperlink{interface_8h_af4f096a4430a03ce24dfc96254e3134e}{on\-Destroy} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_ad1473b9c475bd38e7d7ce6eda149da20}{tout\-Fermer} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_a55fa3c7ab3754e3c68c49530878826c7}{rejouer} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_a552443357dbe94d4a81110d2e30e4a4f}{on\-Destroy2} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_a1df764e57151185f121c3a1414f9eca5}{nouvelle\-Partie} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Nb\-Joueurs)
+\item 
+void \hyperlink{interface_8h_a082c9bde05896c4cf8fadc76da463195}{sauvegarde\-Grille\-Chevalets} (void)
+\item 
+void \hyperlink{interface_8h_acdb6a13364defbabd5dbcd17cf340d39}{afficher\-Chevalet\-Joueur} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_a4a8146490f83c8dd3b12d15dba38a129}{selectionner\-Lettre\-Choisie} (Gtk\-Widget $\ast$p\-Lettre\-Choisie, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_a88fc771243ae35fae85bc4744960c921}{deselectionner\-Lettre\-Choisie} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_aaa1ae69ef2562f9e5a48304b6c053069}{poser\-Lettre\-Choisie} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_a5e7ffbbfe6b5f3f20c1aa94110a42578}{annuler\-Mot} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_a9a4135ad9f77ef9f5ef05c6f719ef263}{defausser} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_aefa85ce077ba68d6466ff40ff003e254}{defausser\-Lettre\-Choisie} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_a848f4a9c0d47cd36d11bf242a509da1e}{annuler\-Defausser\-Lettre\-Choisie} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_ace2219ff27db9cc42bd2f8ef2a1c6927}{valider\-Pose} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_a215247abde0f785768cb4fa6f20c28bd}{valider\-Defausse} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_abee2513b14c65f04e77e2e5791738c28}{passer\-Tour} (Gtk\-Widget $\ast$p\-Widget, gpointer p\-Data)
+\item 
+void \hyperlink{interface_8h_a0574bb936d7d1b923cd671de7fe3d31b}{fin\-De\-Partie} ()
+\item 
+void \hyperlink{interface_8h_a3bdd3a4c0dcf80136881ac584ca28459}{mise\-A\-Jour\-Chevalet} (\hyperlink{struct_image_cliquable}{Image\-Cliquable} \hyperlink{interface_8c_afd3d322d8336128bbf6d36ec762661c2}{p\-Chevalet}\mbox{[}7\mbox{]}, \hyperlink{structure_de_donnee_8h_abde700801ddcd10c40bdf389ff5b1494}{Chevalet} chevalet\-Virtuel)
+\item 
+void \hyperlink{interface_8h_a826440afda3f0a2fc08db2811ed1e426}{mise\-A\-Jour\-Grille} (\hyperlink{struct_image_cliquable}{Image\-Cliquable} \hyperlink{interface_8c_a240d2f78bb7839f241f70e92912b8f87}{p\-Quadrillage}\mbox{[}15\mbox{]}\mbox{[}15\mbox{]}, \hyperlink{structure_de_donnee_8h_a4b19d9524b7f293ad87dd6bd9d121b25}{Grille} grille)
+\item 
+void \hyperlink{interface_8h_acbdd784a6aaf43ec09f8e3a91f8ffe31}{gtk\-\_\-imagecliquable\-\_\-new} (\hyperlink{struct_image_cliquable}{Image\-Cliquable} $\ast$p\-Image\-Cliquable)
+\item 
+void \hyperlink{interface_8h_a83bbc8a0fb1c878f689795c5d9bb9219}{gtk\-\_\-imagecliquable\-\_\-set\-\_\-image\-\_\-from\-\_\-file} (\hyperlink{struct_image_cliquable}{Image\-Cliquable} $\ast$p\-Image\-Cliquable, char $\ast$file)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{interface_8h_acdb6a13364defbabd5dbcd17cf340d39}{\index{interface.\-h@{interface.\-h}!afficher\-Chevalet\-Joueur@{afficher\-Chevalet\-Joueur}}
+\index{afficher\-Chevalet\-Joueur@{afficher\-Chevalet\-Joueur}!interface.h@{interface.\-h}}
+\subsubsection[{afficher\-Chevalet\-Joueur}]{\setlength{\rightskip}{0pt plus 5cm}void afficher\-Chevalet\-Joueur (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_acdb6a13364defbabd5dbcd17cf340d39}
+Le joueur est pret, on cree et affiche son chevalet \-: on attend qu'il choisisse un lettre a poser ou qu'il choisisse de se defausser \hypertarget{interface_8h_a848f4a9c0d47cd36d11bf242a509da1e}{\index{interface.\-h@{interface.\-h}!annuler\-Defausser\-Lettre\-Choisie@{annuler\-Defausser\-Lettre\-Choisie}}
+\index{annuler\-Defausser\-Lettre\-Choisie@{annuler\-Defausser\-Lettre\-Choisie}!interface.h@{interface.\-h}}
+\subsubsection[{annuler\-Defausser\-Lettre\-Choisie}]{\setlength{\rightskip}{0pt plus 5cm}void annuler\-Defausser\-Lettre\-Choisie (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a848f4a9c0d47cd36d11bf242a509da1e}
+Le joueur ne veut plus defausser cette lettre \hypertarget{interface_8h_a5e7ffbbfe6b5f3f20c1aa94110a42578}{\index{interface.\-h@{interface.\-h}!annuler\-Mot@{annuler\-Mot}}
+\index{annuler\-Mot@{annuler\-Mot}!interface.h@{interface.\-h}}
+\subsubsection[{annuler\-Mot}]{\setlength{\rightskip}{0pt plus 5cm}void annuler\-Mot (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a5e7ffbbfe6b5f3f20c1aa94110a42578}
+En cours de depose, le joueur ne veut plus poser son mot \-: on retablit la grille et le chevalet aux valeurs sauvegardees \hypertarget{interface_8h_a526a8d1aec28b7ccca94fa2e02e4bd18}{\index{interface.\-h@{interface.\-h}!choisir\-Nb\-Joueurs@{choisir\-Nb\-Joueurs}}
+\index{choisir\-Nb\-Joueurs@{choisir\-Nb\-Joueurs}!interface.h@{interface.\-h}}
+\subsubsection[{choisir\-Nb\-Joueurs}]{\setlength{\rightskip}{0pt plus 5cm}void choisir\-Nb\-Joueurs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a526a8d1aec28b7ccca94fa2e02e4bd18}
+Affichage de la fenetre permettant de choisir combien de joueurs vont jouer \-: on attend le choix du joueur \hypertarget{interface_8h_a9a4135ad9f77ef9f5ef05c6f719ef263}{\index{interface.\-h@{interface.\-h}!defausser@{defausser}}
+\index{defausser@{defausser}!interface.h@{interface.\-h}}
+\subsubsection[{defausser}]{\setlength{\rightskip}{0pt plus 5cm}void defausser (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a9a4135ad9f77ef9f5ef05c6f719ef263}
+Le joueur souhaite se defausser d'un certain nombre de ses jetons \hypertarget{interface_8h_aefa85ce077ba68d6466ff40ff003e254}{\index{interface.\-h@{interface.\-h}!defausser\-Lettre\-Choisie@{defausser\-Lettre\-Choisie}}
+\index{defausser\-Lettre\-Choisie@{defausser\-Lettre\-Choisie}!interface.h@{interface.\-h}}
+\subsubsection[{defausser\-Lettre\-Choisie}]{\setlength{\rightskip}{0pt plus 5cm}void defausser\-Lettre\-Choisie (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_aefa85ce077ba68d6466ff40ff003e254}
+Le joueur a choisit une lettre a defausser \hypertarget{interface_8h_a88fc771243ae35fae85bc4744960c921}{\index{interface.\-h@{interface.\-h}!deselectionner\-Lettre\-Choisie@{deselectionner\-Lettre\-Choisie}}
+\index{deselectionner\-Lettre\-Choisie@{deselectionner\-Lettre\-Choisie}!interface.h@{interface.\-h}}
+\subsubsection[{deselectionner\-Lettre\-Choisie}]{\setlength{\rightskip}{0pt plus 5cm}void deselectionner\-Lettre\-Choisie (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a88fc771243ae35fae85bc4744960c921}
+Le joueur ne veut plus poser cette lettre \-: on attend qu'il en choisisse une autre \hypertarget{interface_8h_a0574bb936d7d1b923cd671de7fe3d31b}{\index{interface.\-h@{interface.\-h}!fin\-De\-Partie@{fin\-De\-Partie}}
+\index{fin\-De\-Partie@{fin\-De\-Partie}!interface.h@{interface.\-h}}
+\subsubsection[{fin\-De\-Partie}]{\setlength{\rightskip}{0pt plus 5cm}void fin\-De\-Partie (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a0574bb936d7d1b923cd671de7fe3d31b}
+Le fin de la partie a ete declenchee \-: on affiche dans une nouvelle fenetre le score ainsi que le numero du gagnant \hypertarget{interface_8h_acbdd784a6aaf43ec09f8e3a91f8ffe31}{\index{interface.\-h@{interface.\-h}!gtk\-\_\-imagecliquable\-\_\-new@{gtk\-\_\-imagecliquable\-\_\-new}}
+\index{gtk\-\_\-imagecliquable\-\_\-new@{gtk\-\_\-imagecliquable\-\_\-new}!interface.h@{interface.\-h}}
+\subsubsection[{gtk\-\_\-imagecliquable\-\_\-new}]{\setlength{\rightskip}{0pt plus 5cm}void gtk\-\_\-imagecliquable\-\_\-new (
+\begin{DoxyParamCaption}
+\item[{{\bf Image\-Cliquable} $\ast$}]{p\-Image\-Cliquable}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_acbdd784a6aaf43ec09f8e3a91f8ffe31}
+initialisation d'une image cliquable \hypertarget{interface_8h_a83bbc8a0fb1c878f689795c5d9bb9219}{\index{interface.\-h@{interface.\-h}!gtk\-\_\-imagecliquable\-\_\-set\-\_\-image\-\_\-from\-\_\-file@{gtk\-\_\-imagecliquable\-\_\-set\-\_\-image\-\_\-from\-\_\-file}}
+\index{gtk\-\_\-imagecliquable\-\_\-set\-\_\-image\-\_\-from\-\_\-file@{gtk\-\_\-imagecliquable\-\_\-set\-\_\-image\-\_\-from\-\_\-file}!interface.h@{interface.\-h}}
+\subsubsection[{gtk\-\_\-imagecliquable\-\_\-set\-\_\-image\-\_\-from\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}void gtk\-\_\-imagecliquable\-\_\-set\-\_\-image\-\_\-from\-\_\-file (
+\begin{DoxyParamCaption}
+\item[{{\bf Image\-Cliquable} $\ast$}]{p\-Image\-Cliquable, }
+\item[{char $\ast$}]{file}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a83bbc8a0fb1c878f689795c5d9bb9219}
+charger une image dans l'imagecliquable \hypertarget{interface_8h_a3bdd3a4c0dcf80136881ac584ca28459}{\index{interface.\-h@{interface.\-h}!mise\-A\-Jour\-Chevalet@{mise\-A\-Jour\-Chevalet}}
+\index{mise\-A\-Jour\-Chevalet@{mise\-A\-Jour\-Chevalet}!interface.h@{interface.\-h}}
+\subsubsection[{mise\-A\-Jour\-Chevalet}]{\setlength{\rightskip}{0pt plus 5cm}void mise\-A\-Jour\-Chevalet (
+\begin{DoxyParamCaption}
+\item[{{\bf Image\-Cliquable}}]{p\-Chevalet\mbox{[}7\mbox{]}, }
+\item[{{\bf Chevalet}}]{chevalet\-Virtuel}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a3bdd3a4c0dcf80136881ac584ca28459}
+Mise a jour des textes affiches sur les boutons de l'interface graphique au niveau du chevalet affiche \hypertarget{interface_8h_a826440afda3f0a2fc08db2811ed1e426}{\index{interface.\-h@{interface.\-h}!mise\-A\-Jour\-Grille@{mise\-A\-Jour\-Grille}}
+\index{mise\-A\-Jour\-Grille@{mise\-A\-Jour\-Grille}!interface.h@{interface.\-h}}
+\subsubsection[{mise\-A\-Jour\-Grille}]{\setlength{\rightskip}{0pt plus 5cm}void mise\-A\-Jour\-Grille (
+\begin{DoxyParamCaption}
+\item[{{\bf Image\-Cliquable}}]{p\-Quadrillage\mbox{[}15\mbox{]}\mbox{[}15\mbox{]}, }
+\item[{{\bf Grille}}]{grille}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a826440afda3f0a2fc08db2811ed1e426}
+Mise a jour des textes affiches sur les boutons de l'interface graphique au niveau de la grille \hypertarget{interface_8h_a1df764e57151185f121c3a1414f9eca5}{\index{interface.\-h@{interface.\-h}!nouvelle\-Partie@{nouvelle\-Partie}}
+\index{nouvelle\-Partie@{nouvelle\-Partie}!interface.h@{interface.\-h}}
+\subsubsection[{nouvelle\-Partie}]{\setlength{\rightskip}{0pt plus 5cm}void nouvelle\-Partie (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Nb\-Joueurs}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a1df764e57151185f121c3a1414f9eca5}
+Demarrage d'une nouvelle partie \-: creation des fenetres, de tous les boutons. On attend que le 1er joueur soit pret a commencer \hypertarget{interface_8h_af4f096a4430a03ce24dfc96254e3134e}{\index{interface.\-h@{interface.\-h}!on\-Destroy@{on\-Destroy}}
+\index{on\-Destroy@{on\-Destroy}!interface.h@{interface.\-h}}
+\subsubsection[{on\-Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void on\-Destroy (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_af4f096a4430a03ce24dfc96254e3134e}
+Fermeture de la fenetre en cours \hypertarget{interface_8h_a552443357dbe94d4a81110d2e30e4a4f}{\index{interface.\-h@{interface.\-h}!on\-Destroy2@{on\-Destroy2}}
+\index{on\-Destroy2@{on\-Destroy2}!interface.h@{interface.\-h}}
+\subsubsection[{on\-Destroy2}]{\setlength{\rightskip}{0pt plus 5cm}void on\-Destroy2 (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a552443357dbe94d4a81110d2e30e4a4f}
+Fermeture de la fenetre de jeu et retour au choix du nombre de joueur \hypertarget{interface_8h_abee2513b14c65f04e77e2e5791738c28}{\index{interface.\-h@{interface.\-h}!passer\-Tour@{passer\-Tour}}
+\index{passer\-Tour@{passer\-Tour}!interface.h@{interface.\-h}}
+\subsubsection[{passer\-Tour}]{\setlength{\rightskip}{0pt plus 5cm}void passer\-Tour (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_abee2513b14c65f04e77e2e5791738c28}
+Le joueur ne peut rien faire, il passe son tour, on passe au joueur suivant \hypertarget{interface_8h_aaa1ae69ef2562f9e5a48304b6c053069}{\index{interface.\-h@{interface.\-h}!poser\-Lettre\-Choisie@{poser\-Lettre\-Choisie}}
+\index{poser\-Lettre\-Choisie@{poser\-Lettre\-Choisie}!interface.h@{interface.\-h}}
+\subsubsection[{poser\-Lettre\-Choisie}]{\setlength{\rightskip}{0pt plus 5cm}void poser\-Lettre\-Choisie (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_aaa1ae69ef2562f9e5a48304b6c053069}
+Le joueur a choisi la case sur laquelle poser la lettre desiree \-: on attend qu'il en choisisse une autre ou qu'il valide son mot (ou qu'il annule) \hypertarget{interface_8h_a55fa3c7ab3754e3c68c49530878826c7}{\index{interface.\-h@{interface.\-h}!rejouer@{rejouer}}
+\index{rejouer@{rejouer}!interface.h@{interface.\-h}}
+\subsubsection[{rejouer}]{\setlength{\rightskip}{0pt plus 5cm}void rejouer (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a55fa3c7ab3754e3c68c49530878826c7}
+Fermeture de toutes les fenetres + Reouverture de celle du choix du nombre de joueur \hypertarget{interface_8h_a082c9bde05896c4cf8fadc76da463195}{\index{interface.\-h@{interface.\-h}!sauvegarde\-Grille\-Chevalets@{sauvegarde\-Grille\-Chevalets}}
+\index{sauvegarde\-Grille\-Chevalets@{sauvegarde\-Grille\-Chevalets}!interface.h@{interface.\-h}}
+\subsubsection[{sauvegarde\-Grille\-Chevalets}]{\setlength{\rightskip}{0pt plus 5cm}void sauvegarde\-Grille\-Chevalets (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a082c9bde05896c4cf8fadc76da463195}
+On sauvegarde la grille et le chevalet au cas ou le joueur voudrait annuler son depot de lettre (ou si son mot n'existe pas etc) \hypertarget{interface_8h_a4a8146490f83c8dd3b12d15dba38a129}{\index{interface.\-h@{interface.\-h}!selectionner\-Lettre\-Choisie@{selectionner\-Lettre\-Choisie}}
+\index{selectionner\-Lettre\-Choisie@{selectionner\-Lettre\-Choisie}!interface.h@{interface.\-h}}
+\subsubsection[{selectionner\-Lettre\-Choisie}]{\setlength{\rightskip}{0pt plus 5cm}void selectionner\-Lettre\-Choisie (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Lettre\-Choisie, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a4a8146490f83c8dd3b12d15dba38a129}
+Le joueur a clique sur la lettre qu'il veut poser \-: on attend qu'il choisisse ou la poser (ou qu'il annule) \hypertarget{interface_8h_ad1473b9c475bd38e7d7ce6eda149da20}{\index{interface.\-h@{interface.\-h}!tout\-Fermer@{tout\-Fermer}}
+\index{tout\-Fermer@{tout\-Fermer}!interface.h@{interface.\-h}}
+\subsubsection[{tout\-Fermer}]{\setlength{\rightskip}{0pt plus 5cm}void tout\-Fermer (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_ad1473b9c475bd38e7d7ce6eda149da20}
+Fermeture de toutes les fenetres \hypertarget{interface_8h_a215247abde0f785768cb4fa6f20c28bd}{\index{interface.\-h@{interface.\-h}!valider\-Defausse@{valider\-Defausse}}
+\index{valider\-Defausse@{valider\-Defausse}!interface.h@{interface.\-h}}
+\subsubsection[{valider\-Defausse}]{\setlength{\rightskip}{0pt plus 5cm}void valider\-Defausse (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_a215247abde0f785768cb4fa6f20c28bd}
+Le joueur valide son choix de lettres a defausser, on lui en distribue d'autres et on passe au joueur suivant \hypertarget{interface_8h_ace2219ff27db9cc42bd2f8ef2a1c6927}{\index{interface.\-h@{interface.\-h}!valider\-Pose@{valider\-Pose}}
+\index{valider\-Pose@{valider\-Pose}!interface.h@{interface.\-h}}
+\subsubsection[{valider\-Pose}]{\setlength{\rightskip}{0pt plus 5cm}void valider\-Pose (
+\begin{DoxyParamCaption}
+\item[{Gtk\-Widget $\ast$}]{p\-Widget, }
+\item[{gpointer}]{p\-Data}
+\end{DoxyParamCaption}
+)}}\label{interface_8h_ace2219ff27db9cc42bd2f8ef2a1c6927}
+Le joueur valide son mot \-: on verifie que tout est bon sinon on restaure au chevalet et a la grille sauvegardee 
